@@ -1,5 +1,5 @@
 # AWS CloudFormation Learnings
-Contains notes on the different things I learned and best practices in using CloudFormation
+Contains notes on the different things I learned and best practices in using CloudFormation. This is a live document and will be updated every now and then.
 
 ## RESOURCES
 - **AWS Certificate Manager**
