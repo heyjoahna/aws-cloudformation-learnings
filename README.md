@@ -1,6 +1,10 @@
 # AWS CloudFormation Learnings
 Contains notes on the different things I learned and best practices in using CloudFormation. This is a live document and will be updated every now and then.
 
+## PARAMETERS
+- **Pseudo parameters**
+  - Use CloudFormation [pseudo parameters](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html) to make your templates more reusable
+
 ## RESOURCES
 - **AWS Certificate Manager**
   - AWS::CertificateManager::Certificate
