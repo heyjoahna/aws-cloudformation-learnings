@@ -10,6 +10,10 @@ Contains notes on the different things I learned and best practices in using Clo
   - AWS::CertificateManager::Certificate
     - In ValidationMethod, use DNS method as much as possible so that domain validation is handled automatically. Note though that this will only happen if (a) the certificate domain is hosted in Amazon Route 53 and (b) the domain resides in your AWS account.
 
+- **Amazon EventBridge**
+  - AWS::Events::Rule
+    - Tags is an unsupported property
+
 - **Amazon RDS**
   - AWS::RDS::DBCluster
     - For EngineMode: serverless, when you update any parameter in your AWS::RDS::DBCluster, there will be an error regarding *PreferredBackupWindow* and *PreferredMaintenanceWindow* when you redeploy your stack:
